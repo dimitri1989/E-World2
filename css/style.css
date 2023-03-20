@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #1E1E1E;
+}
+@font-face {
+    font-family: 'Pangram';
+    src: local('Pangram Extra Light'), local('Pangram-Extra-Light'),
+        url('../fonts/Pangram-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Pangram-ExtraLight.woff') format('woff'),
+        url('../fonts/Pangram-ExtraLight.woff2') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+  }
+
+.nav-link{
+    font-family: 'Pangram';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-right: 24px;
+    text-align: left;
+
+}
+.content__title{
+    font-family: 'Pangram';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.content__title2{
+    font-family: 'Pangram';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 51px;
+    color: #FFFFFF;
+}
+.content__text{
+    font-family: 'Pangram';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #E1E1E1;
+}
+.content__money{
+    font-family: 'Pangram';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 51px;
+    color: #FFDBB9;
+}
+.content__review{
+    font-family: 'Pangram';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #E1E1E1;
+}
+
+
+
+
+.nav-link:hover{
+    color:rgb(117, 108, 108)
+
+}
+.fa-star{
+    color: #FEC84B;
+}
+.planeta{
+    height: 500px;
+    width:100%;
+}
+
+
+
+
+.btn1{
+    width: 202px;
+    height: 48px;
+    background: #CACACA;
+    border: 1px solid #474747;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+.Blue{
+    background: #0031DD;
+    color: #FFFFFF;
+}
+.content__add{
+    font-family: 'Pangram';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #E1E1E1;
+
+}
+.carousel-control-prev {
+    left: 69%;
+    top: 79%;
+    position: absolute;
+}
+.carousel-control-next {
+    right: 2%;
+    top: 79%;
+    position: absolute;
+}
+
+
+
+
